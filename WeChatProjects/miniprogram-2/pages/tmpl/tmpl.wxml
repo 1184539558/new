@@ -1,0 +1,8 @@
+<template name="user2">
+    <view >
+        <view>{{ user2.id }}</view>
+        <view>{{ user2.name}}</view>
+        <view>{{ user2.age}}</view>    
+    </view>
+</template>
+<template is="user2" data="{{ ...user2 }}"></template>

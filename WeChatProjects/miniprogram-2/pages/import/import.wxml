@@ -1,0 +1,4 @@
+<!--pages/import/import.wxml-->
+<text>pages/import/import.wxml</text>
+<import src="/public/templates/user.wxml" />
+<template is="user" data="{{ user }}"></template>

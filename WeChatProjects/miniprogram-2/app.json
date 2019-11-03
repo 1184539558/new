@@ -1,0 +1,49 @@
+{
+  "pages": [
+    "pages/include/include",
+    "pages/import/import",
+    "pages/tmpl/tmpl",
+    "pages/hello/hello",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#ff0000",
+    "navigationBarTitleText": "贪吃蛇",
+    "navigationBarTextStyle": "white",
+    "backgroundColorBottom":"#aaaaaa",
+    "enablePullDownRefresh":true,
+    "pageOrientation":"portrait"
+  },
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "color":"#333333",
+    "selectedColor":"#ff2D4A",
+    "list": [{
+      "pagePath": "pages/hello/hello",
+      "text": "text",
+      "iconPath": "/images/home.png",
+      "selectedIconPath": "/images/home_active.png"
+    },{
+      "pagePath": "pages/hello/hello",
+      "text": "text",
+      "iconPath": "/images/cate.png",
+      "selectedIconPath": "/images/cate_active.png"
+    },{
+      "pagePath": "pages/hello/hello",
+      "text": "text",
+      "iconPath": "/images/me.png",
+      "selectedIconPath": "/images/me_active.png"
+    }
+  ]
+    
+  },
+  "networkTimeout": {
+    "request": 50000,
+    "connectSocket": 50000,
+    "uploadFile": 50000,
+    "downloadFile": 50000
+  }
+  
+}

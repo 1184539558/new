@@ -1,0 +1,3 @@
+<!--pages/include/include.wxml-->
+<text>pages/include/include.wxml</text>
+<include src="/public/templates/user_inc.wxml"></include>

@@ -1,0 +1,5 @@
+    <view >
+        <view>{{ user.id }}111</view>
+        <view>{{ user.name}}222</view>
+        <view>{{ user.sex}}333</view>    
+    </view>

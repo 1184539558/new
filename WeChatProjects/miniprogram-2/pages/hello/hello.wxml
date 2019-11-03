@@ -1,0 +1,23 @@
+<!--pages/hello/hello.wxml-->
+<text>pages/hello/hello.wxml</text>
+<view > {{ age }}</view>
+<view > {{ user.id }}{{ user.name }}{{ user.sex }}</view>
+<block wx:for="{{ test }}" wx:key="test">
+    <view >
+        {{ index }} {{ item.id }} {{ item.name }}{{ item.sex}}
+    </view>
+</block>
+<block wx:for="{{ test }}" wx:key="test1" >
+<block wx:if="{{ age <=10 }}">
+    <view >儿童</view>
+</block>
+<block wx:elif="{{ age <=20}}">
+    <view >少年</view>
+</block>
+<block wx:elif="{{ age <=50}}" >
+    <view >青年{{ item.id}}</view>
+</block>
+<block wx:elif="{{ age <=100}}" >
+    <view >老年 </view>
+</block>
+</block>
